@@ -27,7 +27,7 @@ while(running){
             window.alert("Too high - try lower.");
         }
         else{
-            window.alert(`BINGO! You guessed the correct nr ${answer} in ${attempts} attempts.`);
+            window.alert(`BINGO! You guessed the correct nr (${answer}) in ${attempts} attempts.`);
             running = false;
         }
     }
